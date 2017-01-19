@@ -1,0 +1,8 @@
+function reply(text){
+   return function (req, res) {
+      res.end(text);
+    };
+
+};
+
+module.export = reply;

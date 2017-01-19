@@ -1,0 +1,5 @@
+function helloWorld(req, res) {
+    res.end("Hello world we are in node connect middleware");
+};
+
+module.exports = helloWorld;
